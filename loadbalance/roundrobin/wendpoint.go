@@ -3,8 +3,8 @@ package roundrobin
 import (
 	"fmt"
 	"github.com/mailgun/log"
-	"github.com/mailgun/vulcan/endpoint"
-	"github.com/mailgun/vulcan/metrics"
+	"github.com/FoxComm/vulcan/endpoint"
+	"github.com/FoxComm/vulcan/metrics"
 	"net/url"
 )
 

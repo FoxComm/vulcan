@@ -6,9 +6,9 @@ import (
 
 	. "gopkg.in/check.v1"
 
-	"github.com/mailgun/vulcan/location"
-	"github.com/mailgun/vulcan/netutils"
-	"github.com/mailgun/vulcan/request"
+	"github.com/FoxComm/vulcan/location"
+	"github.com/FoxComm/vulcan/netutils"
+	"github.com/FoxComm/vulcan/request"
 )
 
 func TestRoute(t *testing.T) { TestingT(t) }

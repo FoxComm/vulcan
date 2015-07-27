@@ -33,11 +33,11 @@ import (
 
 	"github.com/mailgun/log"
 	"github.com/mailgun/timetools"
-	"github.com/mailgun/vulcan/endpoint"
-	"github.com/mailgun/vulcan/metrics"
-	"github.com/mailgun/vulcan/middleware"
-	"github.com/mailgun/vulcan/request"
-	"github.com/mailgun/vulcan/threshold"
+	"github.com/FoxComm/vulcan/endpoint"
+	"github.com/FoxComm/vulcan/metrics"
+	"github.com/FoxComm/vulcan/middleware"
+	"github.com/FoxComm/vulcan/request"
+	"github.com/FoxComm/vulcan/threshold"
 )
 
 // cbState is the state of the circuit breaker

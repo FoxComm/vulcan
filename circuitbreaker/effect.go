@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/mailgun/log"
-	"github.com/mailgun/vulcan/netutils"
+	"github.com/FoxComm/vulcan/netutils"
 )
 
 type SideEffect interface {

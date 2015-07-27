@@ -14,7 +14,7 @@ package threshold
 import (
 	"fmt"
 
-	"github.com/mailgun/vulcan/request"
+	"github.com/FoxComm/vulcan/request"
 )
 
 // Predicate that defines what request can fail over in case of error or http response

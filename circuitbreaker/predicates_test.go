@@ -3,7 +3,7 @@ package circuitbreaker
 import (
 	"time"
 
-	"github.com/mailgun/vulcan/request"
+	"github.com/FoxComm/vulcan/request"
 	. "gopkg.in/check.v1"
 )
 

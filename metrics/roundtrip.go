@@ -5,7 +5,7 @@ import (
 
 	"github.com/mailgun/log"
 	"github.com/mailgun/timetools"
-	"github.com/mailgun/vulcan/request"
+	"github.com/FoxComm/vulcan/request"
 )
 
 // RoundTripMetrics provides aggregated performance metrics for HTTP requests processing

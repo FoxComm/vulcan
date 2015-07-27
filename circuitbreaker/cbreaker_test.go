@@ -9,13 +9,13 @@ import (
 	"time"
 
 	"github.com/mailgun/timetools"
-	"github.com/mailgun/vulcan/errors"
-	"github.com/mailgun/vulcan/metrics"
-	"github.com/mailgun/vulcan/middleware"
-	"github.com/mailgun/vulcan/netutils"
-	"github.com/mailgun/vulcan/request"
-	"github.com/mailgun/vulcan/testutils"
-	"github.com/mailgun/vulcan/threshold"
+	"github.com/FoxComm/vulcan/errors"
+	"github.com/FoxComm/vulcan/metrics"
+	"github.com/FoxComm/vulcan/middleware"
+	"github.com/FoxComm/vulcan/netutils"
+	"github.com/FoxComm/vulcan/request"
+	"github.com/FoxComm/vulcan/testutils"
+	"github.com/FoxComm/vulcan/threshold"
 	. "gopkg.in/check.v1"
 )
 

@@ -2,8 +2,8 @@
 package route
 
 import (
-	. "github.com/mailgun/vulcan/location"
-	. "github.com/mailgun/vulcan/request"
+	. "github.com/FoxComm/vulcan/location"
+	. "github.com/FoxComm/vulcan/request"
 )
 
 // Router matches incoming request to a specific location

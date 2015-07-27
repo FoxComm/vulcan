@@ -1,10 +1,10 @@
 package hostroute
 
 import (
-	. "github.com/mailgun/vulcan/location"
-	. "github.com/mailgun/vulcan/netutils"
-	. "github.com/mailgun/vulcan/request"
-	. "github.com/mailgun/vulcan/route"
+	. "github.com/FoxComm/vulcan/location"
+	. "github.com/FoxComm/vulcan/netutils"
+	. "github.com/FoxComm/vulcan/request"
+	. "github.com/FoxComm/vulcan/route"
 	. "gopkg.in/check.v1"
 	"net/http"
 	"testing"

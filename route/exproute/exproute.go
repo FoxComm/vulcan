@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/mailgun/route"
-	"github.com/mailgun/vulcan/location"
-	"github.com/mailgun/vulcan/request"
+	"github.com/FoxComm/vulcan/location"
+	"github.com/FoxComm/vulcan/request"
 )
 
 type ExpRouter struct {

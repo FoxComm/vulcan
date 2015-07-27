@@ -3,10 +3,10 @@ package connlimit
 
 import (
 	"fmt"
-	"github.com/mailgun/vulcan/errors"
-	"github.com/mailgun/vulcan/limit"
-	"github.com/mailgun/vulcan/netutils"
-	"github.com/mailgun/vulcan/request"
+	"github.com/FoxComm/vulcan/errors"
+	"github.com/FoxComm/vulcan/limit"
+	"github.com/FoxComm/vulcan/netutils"
+	"github.com/FoxComm/vulcan/request"
 	"net/http"
 	"sync"
 )

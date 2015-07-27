@@ -10,10 +10,10 @@ import (
 	"github.com/mailgun/log"
 	"github.com/mailgun/timetools"
 	"github.com/mailgun/ttlmap"
-	"github.com/mailgun/vulcan/errors"
-	"github.com/mailgun/vulcan/limit"
-	"github.com/mailgun/vulcan/netutils"
-	"github.com/mailgun/vulcan/request"
+	"github.com/FoxComm/vulcan/errors"
+	"github.com/FoxComm/vulcan/limit"
+	"github.com/FoxComm/vulcan/netutils"
+	"github.com/FoxComm/vulcan/request"
 )
 
 const DefaultCapacity = 65536

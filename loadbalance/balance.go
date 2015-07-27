@@ -2,9 +2,9 @@
 package loadbalance
 
 import (
-	. "github.com/mailgun/vulcan/endpoint"
-	. "github.com/mailgun/vulcan/middleware"
-	. "github.com/mailgun/vulcan/request"
+	. "github.com/FoxComm/vulcan/endpoint"
+	. "github.com/FoxComm/vulcan/middleware"
+	. "github.com/FoxComm/vulcan/request"
 )
 
 type LoadBalancer interface {

@@ -300,7 +300,8 @@ func (l *HttpLocation) copyRequest(req *http.Request, body netutils.MultiReader,
 	endpointURL := endpoint.GetUrl()
 	outReq.URL.Scheme = endpointURL.Scheme
 	outReq.URL.Host = endpointURL.Host
-	outReq.URL.Opaque = req.RequestURI
+	// workaround for https://github.com/golang/go/issues/10433
+	outReq.URL.Opaque = mergeStartingSlashes(req.RequestURI)
 	// raw query is already included in RequestURI, so ignore it to avoid dupes
 	outReq.URL.RawQuery = ""
 
@@ -401,3 +402,11 @@ const (
 	BalancerId = "__loadBalancer"
 	RewriterId = "__rewriter"
 )
+
+// faster than using strings or regexp packages
+func mergeStartingSlashes(uri string) string {
+	for len(uri) > 1 && uri[0] == '/' && uri[1] == '/' {
+		uri = uri[1:]
+	}
+	return uri
+}

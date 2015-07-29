@@ -1,8 +1,8 @@
 package middleware
 
 import (
-	"github.com/mailgun/vulcan/netutils"
-	. "github.com/mailgun/vulcan/request"
+	"github.com/FoxComm/vulcan/netutils"
+	. "github.com/FoxComm/vulcan/request"
 	. "gopkg.in/check.v1"
 	"net/http"
 	"sync"

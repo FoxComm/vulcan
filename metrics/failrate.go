@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/mailgun/timetools"
-	"github.com/mailgun/vulcan/endpoint"
-	"github.com/mailgun/vulcan/middleware"
-	"github.com/mailgun/vulcan/request"
+	"github.com/FoxComm/vulcan/endpoint"
+	"github.com/FoxComm/vulcan/middleware"
+	"github.com/FoxComm/vulcan/request"
 )
 
 type FailRateMeter interface {

@@ -2,7 +2,7 @@
 package middleware
 
 import (
-	. "github.com/mailgun/vulcan/request"
+	. "github.com/FoxComm/vulcan/request"
 	"net/http"
 )
 

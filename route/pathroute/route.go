@@ -4,8 +4,8 @@ package pathroute
 import (
 	"bytes"
 	"fmt"
-	. "github.com/mailgun/vulcan/location"
-	. "github.com/mailgun/vulcan/request"
+	. "github.com/FoxComm/vulcan/location"
+	. "github.com/FoxComm/vulcan/request"
 	"regexp"
 	"sort"
 	"sync"

@@ -8,10 +8,10 @@ import (
 	"sync/atomic"
 
 	"github.com/mailgun/log"
-	"github.com/mailgun/vulcan/errors"
-	"github.com/mailgun/vulcan/netutils"
-	"github.com/mailgun/vulcan/request"
-	"github.com/mailgun/vulcan/route"
+	"github.com/FoxComm/vulcan/errors"
+	"github.com/FoxComm/vulcan/netutils"
+	"github.com/FoxComm/vulcan/request"
+	"github.com/FoxComm/vulcan/route"
 )
 
 type Proxy struct {

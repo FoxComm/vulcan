@@ -12,13 +12,13 @@ import (
 	"github.com/mailgun/log"
 	"github.com/mailgun/timetools"
 
-	"github.com/mailgun/vulcan/endpoint"
-	"github.com/mailgun/vulcan/errors"
-	"github.com/mailgun/vulcan/failover"
-	"github.com/mailgun/vulcan/loadbalance"
-	"github.com/mailgun/vulcan/middleware"
-	"github.com/mailgun/vulcan/netutils"
-	"github.com/mailgun/vulcan/request"
+	"github.com/FoxComm/vulcan/endpoint"
+	"github.com/FoxComm/vulcan/errors"
+	"github.com/FoxComm/vulcan/failover"
+	"github.com/FoxComm/vulcan/loadbalance"
+	"github.com/FoxComm/vulcan/middleware"
+	"github.com/FoxComm/vulcan/netutils"
+	"github.com/FoxComm/vulcan/request"
 )
 
 // Location with built in failover and load balancing support

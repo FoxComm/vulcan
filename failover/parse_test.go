@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"testing"
 
-	. "github.com/mailgun/vulcan/request"
+	. "github.com/FoxComm/vulcan/request"
 )
 
 func Test(t *testing.T) { TestingT(t) }

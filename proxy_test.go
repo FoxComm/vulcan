@@ -2,9 +2,9 @@ package vulcan
 
 import (
 	"github.com/mailgun/timetools"
-	. "github.com/mailgun/vulcan/location"
-	. "github.com/mailgun/vulcan/route"
-	. "github.com/mailgun/vulcan/testutils"
+	. "github.com/FoxComm/vulcan/location"
+	. "github.com/FoxComm/vulcan/route"
+	. "github.com/FoxComm/vulcan/testutils"
 	. "gopkg.in/check.v1"
 	"net/http"
 	"net/http/httptest"

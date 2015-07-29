@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/mailgun/vulcan/location"
-	"github.com/mailgun/vulcan/request"
+	"github.com/FoxComm/vulcan/location"
+	"github.com/FoxComm/vulcan/request"
 )
 
 // Regular expression to match url parameters

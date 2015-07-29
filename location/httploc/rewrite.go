@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/mailgun/vulcan/headers"
-	"github.com/mailgun/vulcan/netutils"
-	"github.com/mailgun/vulcan/request"
+	"github.com/FoxComm/vulcan/headers"
+	"github.com/FoxComm/vulcan/netutils"
+	"github.com/FoxComm/vulcan/request"
 )
 
 // Rewriter is responsible for removing hop-by-hop headers, fixing encodings and content-length

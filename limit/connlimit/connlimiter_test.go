@@ -1,7 +1,7 @@
 package connlimit
 
 import (
-	"github.com/mailgun/vulcan/request"
+	"github.com/FoxComm/vulcan/request"
 	. "gopkg.in/check.v1"
 	"net/http"
 	"testing"

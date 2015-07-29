@@ -4,7 +4,7 @@ package endpoint
 
 import (
 	"fmt"
-	"github.com/mailgun/vulcan/netutils"
+	"github.com/FoxComm/vulcan/netutils"
 	"net/url"
 )
 

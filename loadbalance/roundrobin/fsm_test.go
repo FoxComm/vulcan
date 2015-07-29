@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/mailgun/timetools"
-	"github.com/mailgun/vulcan/endpoint"
-	"github.com/mailgun/vulcan/metrics"
+	"github.com/FoxComm/vulcan/endpoint"
+	"github.com/FoxComm/vulcan/metrics"
 	. "gopkg.in/check.v1"
 )
 

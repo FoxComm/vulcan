@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/mailgun/timetools"
-	"github.com/mailgun/vulcan/metrics"
+	"github.com/FoxComm/vulcan/metrics"
 )
 
 // This handler increases weights on endpoints that perform better than others

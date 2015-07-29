@@ -7,7 +7,7 @@ import (
 	"go/token"
 	"strconv"
 
-	"github.com/mailgun/vulcan/location"
+	"github.com/FoxComm/vulcan/location"
 )
 
 // Parses expression in the go language into matchers, e.g.

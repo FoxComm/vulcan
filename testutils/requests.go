@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"strings"
 
-	"github.com/mailgun/vulcan/netutils"
+	"github.com/FoxComm/vulcan/netutils"
 )
 
 type Opts struct {
